@@ -4,5 +4,5 @@
 
 def roll
   die = (1..6).to_a
-  rand
+  rand(die)
 end
